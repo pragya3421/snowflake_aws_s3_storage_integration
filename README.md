@@ -38,6 +38,28 @@ File Formats
 
 <img width="296" height="284" alt="image" src="https://github.com/user-attachments/assets/71ef294b-f772-4520-a7a7-3aa056e12158" />
 
+Snowflake Responsibility:
+
+Generates identity (IAM user ARN)
+
+Generates External ID
+
+Assumes AWS Role
+
+Executes query
+
+Reads file from S3
+
+<img width="301" height="259" alt="image" src="https://github.com/user-attachments/assets/f2855519-cf7f-4d3f-abf8-bc65478d1cf5" />
+
+AWS Responsibility:
+
+Validates Snowflake identity
+
+Issues temporary credentials
+
+Allows S3 access based on policy
+
 Snowflake
 → Storage Integration
 → AWS IAM Role (AssumeRole with External ID)
