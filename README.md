@@ -35,6 +35,9 @@ File Formats
 
 # Architecture
 
+
+<img width="296" height="284" alt="image" src="https://github.com/user-attachments/assets/71ef294b-f772-4520-a7a7-3aa056e12158" />
+
 Snowflake
 → Storage Integration
 → AWS IAM Role (AssumeRole with External ID)
