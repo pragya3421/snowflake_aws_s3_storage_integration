@@ -22,10 +22,15 @@ Production-safe architecture (no hardcoded credentials)
 
 # Technologies Used
 Snowflake
+
 AWS S3
+
 AWS IAM
+
 SQL
+
 External Stages
+
 File Formats
 
 # Architecture
